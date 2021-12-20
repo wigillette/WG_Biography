@@ -27,10 +27,9 @@ function getCourseData(){
 
 const CourseWork = () => (
   <div className="CourseWork">
-    <div className = "MajorSection">
+    <div className = "InfoSection">
+      <h4>Academic Overview</h4>
       <p>I am pursuing a double major in <b>computer science</b> and <b>mathematics</b> and may potentially add a <b>statistics</b> minor. I plan to use my knowledge from math and computer science courses to specialize in <b>Machine Learning</b>.</p>
-    </div>
-    <div className = "GPASection">
       <p>My cumulative GPA is a <b>3.97</b>, while my computer science and mathematics GPAs are <b>4.0</b> and <b>3.91</b>, respectively.</p>
     </div>
     <div className = "CourseTables">

@@ -1,20 +1,27 @@
-
-.CourseWork {
-    width: 100%;
-    height: 60%;
+#overview {
     margin-top: 4%;
 }
-.MajorSection, .GPASection{
+
+#overview h4 {
+    text-shadow: none;
+    font-size: 2.5vh;
+}
+
+#overview p {
     font-size: 1.5vh;
+    color: rgb(60,60,60)
 }
 
-.GPASection {
-    padding-bottom: 1%;
+#graphicsContainer {
+    margin-bottom: 2%;
 }
 
-.CourseTables {
-    height: 40%;
-    width: 90%;
-    display: inline-block;
-    margin: 0 auto;
+#academicContainer {
+    width: 30%;
+    margin-left: 1%;
+}
+
+#pksContainer {
+    width: 30%;
+    margin-left: 4%;
 }

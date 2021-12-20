@@ -4,12 +4,10 @@
     height: 60%;
     margin-top: 4%;
 }
-.MajorSection, .GPASection{
-    font-size: 1.5vh;
-}
 
-.GPASection {
+.InfoSection {
     padding-bottom: 1%;
+    font-size: 1.5vh;
 }
 
 .CourseTables {
@@ -17,4 +15,8 @@
     width: 90%;
     display: inline-block;
     margin: 0 auto;
+}
+
+.InfoSection h4 {
+    text-shadow: none;
 }

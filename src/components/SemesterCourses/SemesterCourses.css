@@ -4,33 +4,32 @@
     margin: 0 auto;
     margin-left: 2.5%;
     margin-right: 2.5%;
-    margin-bottom: 2%;
+    padding-bottom: 1%;
 }
-/* 
-.SemesterCourses td, .SemesterCourses th {
-    padding: 2%;
-    border: 2px solid rgb(150, 150, 150);
-    white-space: nowrap;
-    font-size: 1vh;
-}
-  
-.SemesterCourses tr:nth-child(even){background-color: rgb(230, 230, 230);}
-.SemesterCourses tr:nth-child(odd){background-color: rgb(255, 255, 255);}
-  
-.SemesterCourses tr:nth-child(even):hover {background-color: rgb(240, 240, 240);}
-.SemesterCourses tr:nth-child(odd):hover {background-color: rgb(245, 245, 245);}
-
-.SemesterCourses th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #f37474;
-    color: white;
-}
-*/
 
 .SemesterCourses caption{
+    font-family: "Roboto Slab", serif;
     caption-side: top;
-    font-size: 2vh;
+    font-size: 1.8vh;
     text-align: center;
+    color: rgb(0,0,0)
+}
+
+.SemesterCourses th{
+    font-size: 1.4vh;
+    font-family: "Roboto Slab", serif;
+}
+
+.SemesterCourses td:nth-child(1), td:nth-last-child(1){
+    font-weight: 500;
+}
+
+.SemesterCourses tr {
+    padding-bottom: 5%;
+}
+
+.SemesterCourses td {
+    font-size: 1.4vh;
+    transition: 0.2s;
+    padding-bottom: 5%;
 }

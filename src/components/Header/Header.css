@@ -1,0 +1,13 @@
+.Header a {
+    font-family: "Roboto Slab", serif;
+    font-size: 2vh;
+}
+
+.Header {
+    padding-bottom: 1%;
+}
+
+.header-link {
+    margin-left: 15%;
+    white-space: nowrap;
+}

@@ -13,7 +13,7 @@
         "GPA": "4.0", 
         "C1": {"CourseID": "CS-371", "Instructor": "Dr. Christopher Tralie", "Grade": "A+", "CourseName": "Data Structures and Algorithms"},
         "C2": {"CourseID": "SPAN-102", "Instructor": "Martha Davis", "Grade": "A+", "CourseName": "Elem. Spanish 2"},
-        "C3": {"CourseID": "MATH-236W", "Instructor": "Dr. Olena Kozshuskina", "Grade": "A", "CourseName": "Calculus 2"},
+        "C3": {"CourseID": "MATH-236W", "Instructor": "Dr. Olena Kozshuskina", "Grade": "A", "CourseName": "Discrete Mathematics"},
         "C4": {"CourseID": "CIE-200", "Instructor": "Dr. Matthew Kozusko", "Grade": "A", "CourseName": "Common Intellectual Experience 2"}
         },
         {
@@ -62,7 +62,7 @@
         "C1": {"CourseID": "CS-492", "Instructor": "Dr. Christopher Tralie", "Grade": "TBD", "CourseName": "Research/Independent Work"},
         "C2": {"CourseID": "MATH-335", "Instructor": "TBD", "Grade": "TBD", "CourseName": "Abstract Algebra 1"},
         "C3": {"CourseID": "MATH-400", "Instructor": "TBD", "Grade": "TBD", "CourseName": "Human Flourishing"},
-        "C4": {"CourseID": "MATH-442", "Instructor": "TBD", "Grade": "TBD", "CourseName": "Math Statistics"}
+        "C4": {"CourseID": "MATH-442", "Instructor": "TBD", "Grade": "TBD", "CourseName": "Mathematical Statistics"}
         }
     ]
 }

@@ -1,0 +1,37 @@
+.carousel {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 1200px;
+    height: 600px;
+    margin-bottom: 5%;
+    box-shadow: 0px 2px 2px 0.5px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+.carousel-indicators {
+    padding: 0px;
+    margin-bottom: 0%;
+}
+
+.carousel-caption h3 {
+    font-family: "Roboto Slab", serif;
+    text-shadow: 1px 1px #000000;
+}
+
+.carousel-caption p {
+    font-family: "Open Sans", serif;
+    text-shadow: 1px 1px #000000;
+
+}
+
+.carousel-inner {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.carousel-item {
+    height: 100%;
+    width: 100%;
+}

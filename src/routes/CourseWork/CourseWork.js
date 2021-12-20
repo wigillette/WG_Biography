@@ -1,5 +1,5 @@
 import React from 'react';
-import SemesterCourses from '../SemesterCourses/SemesterCourses';
+import SemesterCourses from '../../components/SemesterCourses/SemesterCourses';
 
 import './CourseWork.css';
 const courseData = require("../../shared/CourseData.json")

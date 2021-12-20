@@ -1,0 +1,36 @@
+.SemesterCourses {
+    width: 45%;
+    float: right;
+    margin: 0 auto;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2%;
+}
+/* 
+.SemesterCourses td, .SemesterCourses th {
+    padding: 2%;
+    border: 2px solid rgb(150, 150, 150);
+    white-space: nowrap;
+    font-size: 1vh;
+}
+  
+.SemesterCourses tr:nth-child(even){background-color: rgb(230, 230, 230);}
+.SemesterCourses tr:nth-child(odd){background-color: rgb(255, 255, 255);}
+  
+.SemesterCourses tr:nth-child(even):hover {background-color: rgb(240, 240, 240);}
+.SemesterCourses tr:nth-child(odd):hover {background-color: rgb(245, 245, 245);}
+
+.SemesterCourses th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f37474;
+    color: white;
+}
+*/
+
+.SemesterCourses caption{
+    caption-side: top;
+    font-size: 2vh;
+    text-align: center;
+}

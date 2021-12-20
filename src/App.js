@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import CourseWork from './components/CourseWork/CourseWork.js';
+
 
 function App() {
   return (
     <div className="App">
-      <p> Hello</p>
+      <CourseWork />
     </div>
   );
 }

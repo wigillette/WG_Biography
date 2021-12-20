@@ -1,0 +1,68 @@
+{
+    "Semesters": [
+        {
+        "Name": "Fall 2020",
+        "GPA": "3.89", 
+        "C1": {"CourseID": "CS-174", "Instructor": "Dr. Christopher Tralie", "Grade": "A+", "CourseName": "Object Oriented Programming"},
+        "C2": {"CourseID": "SPAN-101", "Instructor": "Martha Davis", "Grade": "A+", "CourseName": "Elem. Spanish 1"},
+        "C3": {"CourseID": "MATH-112", "Instructor": "Lisa Grossbauer", "Grade": "A-", "CourseName": "Calculus 2"},
+        "C4": {"CourseID": "CIE-100", "Instructor": "Doron Taussig", "Grade": "S", "CourseName": "Common Intellectual Experience 1"}
+        },
+        {
+        "Name": "Spring 2021",
+        "GPA": "4.0", 
+        "C1": {"CourseID": "CS-371", "Instructor": "Dr. Christopher Tralie", "Grade": "A+", "CourseName": "Data Structures and Algorithms"},
+        "C2": {"CourseID": "SPAN-102", "Instructor": "Martha Davis", "Grade": "A+", "CourseName": "Elem. Spanish 2"},
+        "C3": {"CourseID": "MATH-236W", "Instructor": "Dr. Olena Kozshuskina", "Grade": "A", "CourseName": "Calculus 2"},
+        "C4": {"CourseID": "CIE-200", "Instructor": "Dr. Matthew Kozusko", "Grade": "A", "CourseName": "Common Intellectual Experience 2"}
+        },
+        {
+        "Name": "Fall 2021",
+        "GPA": "4.0", 
+        "C1": {"CourseID": "CS-373", "Instructor": "Dr. Christopher Tralie", "Grade": "A", "CourseName": "Theory of Computation"},
+        "C2": {"CourseID": "CS-377", "Instructor": "Dr. Bill Mongan", "Grade": "A+", "CourseName": "Database Design"},
+        "C3": {"CourseID": "MATH-211", "Instructor": "Dr. Eric Takyi", "Grade": "A+", "CourseName": "Calculus 3"},
+        "C4": {"CourseID": "MATH-235", "Instructor": "Dr. Christopher Sadowski", "Grade": "A+", "CourseName": "Linear Algebra"}
+        },
+        {
+        "Name": "Spring 2022",
+        "GPA": "TBD", 
+        "C1": {"CourseID": "CS-491", "Instructor": "Dr. Christopher Tralie", "Grade": "TBD", "CourseName": "Research/Independent Work"},
+        "C2": {"CourseID": "MATH-310", "Instructor": "Dr. Eric Takyi", "Grade": "TBD", "CourseName": "Differential Equations"},
+        "C3": {"CourseID": "CS-274", "Instructor": "Ann Marie Veca Schilling", "Grade": "TBD", "CourseName": "Computer Architecture"},
+        "C4": {"CourseID": "ART-250", "Instructor": "M. Tierney", "Grade": "TBD", "CourseName": "Ancient American Art History"}
+        },
+        {
+        "Name": "Fall 2022",
+        "GPA": "TBD", 
+        "C1": {"CourseID": "CS-476", "Instructor": "Dr. Christopher Tralie", "Grade": "TBD", "CourseName": "Computer Graphics"},
+        "C2": {"CourseID": "MATH-413", "Instructor": "TBD", "Grade": "TBD", "CourseName": "Numerical Analysis"},
+        "C3": {"CourseID": "CS-275", "Instructor": "Ann Marie Veca Schilling", "Grade": "TBD", "CourseName": "Software Engineering"},
+        "C4": {"CourseID": "STAT-141Q", "Instructor": "TBD", "Grade": "TBD", "CourseName": "Statistics 1"}
+        },
+        {
+        "Name": "Spring 2023",
+        "GPA": "TBD", 
+        "C1": {"CourseID": "CS-472", "Instructor": "Dr. Christopher Tralie", "Grade": "TBD", "CourseName": "Digital Music Processing"},
+        "C2": {"CourseID": "MUS-226", "Instructor": "TBD", "Grade": "TBD", "CourseName": "Music Technology"},
+        "C3": {"CourseID": "PHYS-110", "Instructor": "TBD", "Grade": "TBD", "CourseName": "Physics on Screen"},
+        "C4": {"CourseID": "STAT-242", "Instructor": "TBD", "Grade": "TBD", "CourseName": "Statistics 2"}
+        },
+        {
+        "Name": "Fall 2023",
+        "GPA": "TBD", 
+        "C1": {"CourseID": "CS-477", "Instructor": "Dr. Christopher Tralie", "Grade": "TBD", "CourseName": "Artificial Intelligence"},
+        "C2": {"CourseID": "MATH-341", "Instructor": "TBD", "Grade": "TBD", "CourseName": "Probability"},
+        "C3": {"CourseID": "MATH-311W", "Instructor": "TBD", "Grade": "TBD", "CourseName": "Analysis 1"},
+        "C4": {"CourseID": "CS-491", "Instructor": "Dr. Christopher Tralie", "Grade": "TBD", "CourseName": "Research/Independent Work"}
+        },
+        {
+        "Name": "Spring 2024",
+        "GPA": "TBD", 
+        "C1": {"CourseID": "CS-492", "Instructor": "Dr. Christopher Tralie", "Grade": "TBD", "CourseName": "Research/Independent Work"},
+        "C2": {"CourseID": "MATH-335", "Instructor": "TBD", "Grade": "TBD", "CourseName": "Abstract Algebra 1"},
+        "C3": {"CourseID": "MATH-400", "Instructor": "TBD", "Grade": "TBD", "CourseName": "Human Flourishing"},
+        "C4": {"CourseID": "MATH-442", "Instructor": "TBD", "Grade": "TBD", "CourseName": "Math Statistics"}
+        }
+    ]
+}

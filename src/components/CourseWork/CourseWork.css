@@ -1,0 +1,17 @@
+
+.CourseWork {
+    width: 100%;
+    height: 80%;
+}
+.MajorSection, .GPASection{
+    font-size: 1.5vh;
+}
+
+
+
+.CourseTables {
+    height: 40%;
+    width: 90%;
+    display: inline-block;
+    margin: 0 auto;
+}

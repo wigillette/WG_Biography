@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './NewsCard.css';
 import {Card} from 'react-bootstrap';
 import Dog1 from "../../shared/images/dog1.jpg";
@@ -22,9 +21,5 @@ class NewsCard extends React.Component {
     </div>
   }
 }
-
-NewsCard.propTypes = {};
-
-NewsCard.defaultProps = {};
 
 export default NewsCard;

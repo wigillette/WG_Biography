@@ -1,15 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './CourseDetail.css';
 
-const CourseDetail = () => (
-  <div className="CourseDetail">
-    CourseDetail Component
-  </div>
-);
-
-CourseDetail.propTypes = {};
-
-CourseDetail.defaultProps = {};
+class CourseDetail extends React.Component {
+  render(){
+    return <div className="CourseDetail">
+      <h4 className = "courseName">{this.props.CourseID} | {this.props.CourseName}</h4>
+      <h3 className = "profName">{this.props.Instructor}</h3>
+      <p className = "courseDesc">{this.props.DescData}</p>
+    </div>
+  }
+}
 
 export default CourseDetail;

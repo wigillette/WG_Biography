@@ -1,1 +1,25 @@
-.CourseDetail {}
+.CourseDetail {
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    position: relative;
+    min-height: 50vh;
+}
+
+.CourseDetail .courseName {
+    text-shadow: none;
+    margin-bottom: 1%;
+    font-size: 3vh;
+}
+
+.CourseDetail .courseDesc {
+    margin-top: 3%;
+    font-size: 2vh;
+}
+
+.CourseDetail .profName {
+    color: rgb(100,100,100);
+}
+

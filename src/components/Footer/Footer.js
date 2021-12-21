@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './Footer.css';
 import {Container} from "react-bootstrap";
 
@@ -47,9 +46,5 @@ const Footer = () => (
     </Container>
   </div>
 );
-
-Footer.propTypes = {};
-
-Footer.defaultProps = {};
 
 export default Footer;

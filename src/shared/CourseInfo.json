@@ -1,0 +1,100 @@
+{
+    "Semesters": [
+        {
+        "Name": "Fall 2020",
+        "GPA": "3.89", 
+        "C1": {"CourseID": "CS-174", "Description": "A continuation of CS-173. More detailed exploration of classes and instances. An introduction to collection classes such as vectors, arraylists, linked lists, stacks, queues, maps, sets, and trees. Larger programs and/or team projects.",
+        "Instructor": "Dr. Christopher Tralie", "Grade": "A+", "CourseName": "Object Oriented Programming"},
+        "C2": {"CourseID": "SPAN-101", "Description": "Development of the four skills of listening, speaking, reading and writing. Designed for beginners or students with little or no recent study of the language.",
+        "Instructor": "Martha Davis", "Grade": "A+", "CourseName": "Elem. Spanish 1"},
+        "C3": {"CourseID": "MATH-112", "Description": "A continuation of MATH-111.Techniques of integration, applications of integration, improper integrals, polar coordinates, parametric equations, infinite sequences and series.",
+        "Instructor": "Lisa Grossbauer", "Grade": "A-", "CourseName": "Calculus 2"},
+        "C4": {"CourseID": "CIE-100", "Description": "The first of a two-semester course introducing inquiry into the core questions of liberal education at Ursinus: What should matter to me? How should we live together? How can we understand the world? What will I do? The course will explore these questions through the study of influential primary texts. The first semester focuses on texts from antiquity up to the modern era.",
+        "Instructor": "Doron Taussig", "Grade": "S", "CourseName": "Common Intellectual Experience 1"}
+        },
+        {
+        "Name": "Spring 2021",
+        "GPA": "4.0", 
+        "C1": {"CourseID": "CS-371", "Description": "Introduction to algorithm analysis and data structures. Complexity of algorithms, analyzing basic data structure operations, searching and sorting algorithms, tables, hashing, recursion, tree and graph algorithms.",
+        "Instructor": "Dr. Christopher Tralie", "Grade": "A+", "CourseName": "Data Structures and Algorithms"},
+        "C2": {"CourseID": "SPAN-102", "Description": "Continuation of SPAN-101.",
+        "Instructor": "Martha Davis", "Grade": "A+", "CourseName": "Elem. Spanish 2"},
+        "C3": {"CourseID": "MATH-236W", "Description": "A course designed to bridge the gap between computation-oriented introductory courses and proof-oriented advanced courses. The language of contemporary mathematics, including the proper way to write mathematics, and the nature of mathematical reasoning. Extensive writing projects. Topics studied may include axiomatic systems, logic, set theory, functions, mathematical induction, graph theory and trees, permutations and combinations.", 
+        "Instructor": "Dr. Olena Kozshuskina", "Grade": "A", "CourseName": "Discrete Mathematics"},
+        "C4": {"CourseID": "CIE-200", "Description": "This course continues the inquiry into the four core questions begun in CIE-100 (CIE I) through the study of influential primary texts. The second semester focuses on texts from the modern era through contemporary times.",
+        "Instructor": "Dr. Matthew Kozusko", "Grade": "A", "CourseName": "Common Intellectual Experience 2"}
+        },
+        {
+        "Name": "Fall 2021",
+        "GPA": "4.0", 
+        "C1": {"CourseID": "CS-373", "Description": "Principles of formal languages, automata, computability and computational complexity. Emphasis on writing proofs of theorems.",
+        "Instructor": "Dr. Christopher Tralie", "Grade": "A", "CourseName": "Theory of Computation"},
+        "C2": {"CourseID": "CS-377", "Description": "The concepts involved in designing and using a database management system. Logical and physical database design. Entity-Relational Modeling. Various types of database structures, manipulations of a database structure through applications, query techniques, and programming in a database language.",
+        "Instructor": "Dr. Bill Mongan", "Grade": "A+", "CourseName": "Database Design"},
+        "C3": {"CourseID": "MATH-211", "Description": "Functions of several variables, including three-dimensional geometry and vectors, space curves and motion in space, partial differentiation, multiple integration, line and surface integrals, and the theorems of Green, Gauss, and Stokes.", 
+        "Instructor": "Dr. Eric Takyi", "Grade": "A+", "CourseName": "Calculus 3"},
+        "C4": {"CourseID": "MATH-235", "Description": "Systems of linear equations, matrix algebra, vector spaces, linear transformations, eigenvectors and eigenvalues, inner products and orthogonality, applications.",
+        "Instructor": "Dr. Christopher Sadowski", "Grade": "A+", "CourseName": "Linear Algebra"}
+        },
+        {
+        "Name": "Spring 2022",
+        "GPA": "TBD", 
+        "C1": {"CourseID": "CS-491", "Description": "Independent research in computer science. This course is appropriate for students pursuing departmental honors and distinguished honors projects, and is open to other students interested in research in computer science",
+        "Instructor": "Dr. Christopher Tralie", "Grade": "TBD", "CourseName": "Research/Independent Work"},
+        "C2": {"CourseID": "MATH-310", "Description": "Mathematical methods for developing models in the physical, biological, and social sciences. Emphasis on models involving differential equations. Solutions, visualizations, and interpretations of first order, second order, and systems of linear and non-linear differential equations. Numerical, graphical and analytic methods, with extensive qualitative analysis approaches. Laplace transforms. Independent projects. Additional topics chosen from forcing and resonance, discrete dynamical systems, and power series solutions.", 
+        "Instructor": "Dr. Eric Takyi", "Grade": "TBD", "CourseName": "Differential Equations"},
+        "C3": {"CourseID": "CS-274", "Description": "Syntax, processors, representations and styles of programming languages. Study and comparison of several modern programming languages.",
+        "Instructor": "Ann Marie Veca Schilling", "Grade": "TBD", "CourseName": "Computer Architecture"},
+        "C4": {"CourseID": "ART-250", "Description": "A focused exploration of special subject areas and/or periods in Western, Asian and African art. Students will utilize regional museums and archives for individual research projects. Museum trips required. This course could also be held off campus.",
+        "Instructor": "M. Tierney", "Grade": "TBD", "CourseName": "Ancient American Art History"}
+        },
+        {
+        "Name": "Fall 2022",
+        "GPA": "TBD", 
+        "C1": {"CourseID": "CS-476", "Description": "A broad introduction to computer graphics via study and implementation of algorithms for 3D rendering, 3D shape manipulation, and 3D animation. Rendering topics include geometric primitives, scene graphs, 3D perspectives, ray tracing, the object-first graphics pipeline (including projection, clipping, shading, hidden surface removal, and displacement maps), antialiasing, texture maps, shadows, specular reflection, and global illumination. Shape manipulation topics include data structures for 2D surfaces (triangle meshes, subdivision surfaces, splines) and volumetric/levelset data structures (implicit surfaces). Animation topics include rotation interpolation, rigging/skinning, and particle/spring simulations. Students will also learn real-time software implementations of shading via the OpenGL Shading Language (GLSL).",
+        "Instructor": "Dr. Christopher Tralie", "Grade": "TBD", "CourseName": "Computer Graphics"},
+        "C2": {"CourseID": "MATH-413", "Description": "Selected topics from numerical analysis, which may include systems of linear equations, linear and nonlinear differential equations, numerical integration and differentiation, eigenvalue problems, error analysis, interpolation and approximation.",
+        "Instructor": "TBD", "Grade": "TBD", "CourseName": "Numerical Analysis"},
+        "C3": {"CourseID": "CS-275", "Description": "Topics integral to the design, implementation and testing of a medium-scale software system combined with the practical experience of implementing such a project as a member of a programming team. Use of the Unified Modeling Language (UML) for software design.",
+        "Instructor": "Ann Marie Veca Schilling", "Grade": "TBD", "CourseName": "Software Engineering"},
+        "C4": {"CourseID": "STAT-141Q", "Description": "A study of the fundamental concepts of statistical analysis. This course prepares students to carry out basic descriptive and inferential statistical analyses with the aid of computer software. Topics include an introduction to the nature of statistical reasoning, graphical and descriptive statistics, and design of experiments, sampling methods, probability, probability distributions, sampling distributions, and statistical inference based on confidence intervals and hypothesis tests.",
+        "Instructor": "TBD", "Grade": "TBD", "CourseName": "Statistics 1"}
+        },
+        {
+        "Name": "Spring 2023",
+        "GPA": "TBD", 
+        "C1": {"CourseID": "CS-375", "Description": "This hands-on course will take a broad overview of how to represent, analyze, and morph/transform digital musical audio with a computer. Topics include time-domain audio processing, digital instrument synthesis (including FM synthesis), frequency domain audio processing and Fourier analysis, vocoders and cross-synthesis, audio novelty for tempo estimation / beat-tracking, pitch and timbre features, content-based music audio retrieval (e.g., version identification and the “Shazam algorithm”), automatic source separation, and audio mosaicing.", 
+        "Instructor": "Dr. Christopher Tralie", "Grade": "TBD", "CourseName": "Digital Musical Audio Processing"},
+        "C2": {"CourseID": "MUS-226", "Description": "An introductory course in computer-based music technology. Students will learn the concepts of sequencing, mixing, production, loop-based composition, sampler and synth programming, and basic music theory through composition and analysis projects. Emphasis on MIDI and software-based sound generators. Additional concepts may include music notation, music distribution, and digital audio theory.",
+        "Instructor": "TBD", "Grade": "TBD", "CourseName": "Music Technology"},
+        "C3": {"CourseID": "PHYS-110", "Description": "An examination of physics and astronomy as portrayed in popular film and television. It will include the following physical topics: conservation laws, mechanics, thermodynamics, electricity and magnetism, and introductory quantum physics. It will also explore the relationship between the scientific understanding of those topics and their depiction in various media and styles, as well as the social and cultural influences of those depictions. The course will include historical as well as contemporary perspectives.", 
+        "Instructor": "TBD", "Grade": "TBD", "CourseName": "Physics on Screen"},
+        "C4": {"CourseID": "STAT-242", "Description": "A continued study of basic statistical techniques. Topics include: regression analysis, chi-square tests, nonparametric statistics, and the use of statistical software for data analysis.",
+        "Instructor": "TBD", "Grade": "TBD", "CourseName": "Statistics 2"}
+        },
+        {
+        "Name": "Fall 2023",
+        "GPA": "TBD", 
+        "C1": {"CourseID": "CS-477", "Description": "This course explores principles and methods for knowledge representation, reasoning, learning, problem solving, planning, heuristic search, multimedia data processing, and natural language processing. These principles are applied to problems which require building intelligent systems in a variety of domains. Ethical considerations in developing responsible AI will also be explored.", 
+        "Instructor": "Dr. Christopher Tralie", "Grade": "TBD", "CourseName": "Artificial Intelligence"},
+        "C2": {"CourseID": "MATH-341", "Description": "An introduction to probability theory, discrete and continuous probability distributions, moments and moment-generating functions of random variables, and transformations of random variables.", 
+        "Instructor": "TBD", "Grade": "TBD", "CourseName": "Probability"},
+        "C3": {"CourseID": "MATH-311W", "Description": "An introduction to the real number system and set operations; theoretical treatment of supremum, infimum, countability, sequences, limits, continuity, and differentiability. Additional topics may include series, structure of point sets and abstract metric spaces.",
+        "Instructor": "TBD", "Grade": "TBD", "CourseName": "Analysis 1"},
+        "C4": {"CourseID": "CS-491", "Description": "Independent research in computer science. This course is appropriate for students pursuing departmental honors and distinguished honors projects, and is open to other students interested in research in computer science. An oral presentation to the department is required.",
+        "Instructor": "Dr. Christopher Tralie", "Grade": "TBD", "CourseName": "Research/Independent Work"}
+        },
+        {
+        "Name": "Spring 2024",
+        "GPA": "TBD", 
+        "C1": {"CourseID": "CS-492", "Description": "Independent research in computer science. This course serves as the culminating course for departmental honors and distinguished honors projects.",
+        "Instructor": "Dr. Christopher Tralie", "Grade": "TBD", "CourseName": "Research/Independent Work"},
+        "C2": {"CourseID": "MATH-335", "Description": "An introduction to algebraic structures, with emphasis on groups: Subgroups, quotient groups, homomorphisms, isomorphism theorems, Cayley’s theorem, permutation groups. An introduction to the theory of rings.",
+        "Instructor": "TBD", "Grade": "TBD", "CourseName": "Abstract Algebra 1"},
+        "C3": {"CourseID": "MATH-400", "Description": "Many people today consider mathematics a tool of the physical sciences at best and a pointless exercise in rote memorization at worst. But is there anything more to math than this? Can mathematics contribute to basic human desires such as play, beauty, freedom, justice, and love? Is there any sense in which mathematics can contribute to human flourishing? How does our view of the nature of mathematics affect things like education, personal growth, and human flourishing? This course explores ways in which mathematics can be linked to what it means to be human. Through a series of readings, both ancient and modern, covering history, philosophy, logic, and personal anecdotes, this course challenges our assumptions about how mathematics fits into the modern world and how mathematics calls us to action, even the most math-phobic",
+        "Instructor": "TBD", "Grade": "TBD", "CourseName": "Human Flourishing"},
+        "C4": {"CourseID": "MATH-442", "Description": "The mathematical background of modern statistics, including the development of sampling distributions, the theory and application of estimation, tests of hypotheses", 
+        "Instructor": "TBD", "Grade": "TBD", "CourseName": "Mathematical Statistics"}
+        }
+    ]
+}

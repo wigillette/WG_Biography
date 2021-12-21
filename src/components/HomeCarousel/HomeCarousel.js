@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
-import PropTypes from 'prop-types';
 import './HomeCarousel.css';
-import { Carousel, Card } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import Dog1 from "../../shared/images/dog1.jpg";
 import Dog2 from "../../shared/images/dog2.jpg";
 
@@ -34,10 +33,5 @@ const HomeCarousel = () => {
       </Carousel.Item>
     </Carousel>
 }
-
-
-HomeCarousel.propTypes = {};
-
-HomeCarousel.defaultProps = {};
 
 export default HomeCarousel;

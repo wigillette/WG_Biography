@@ -20,3 +20,7 @@
 .InfoSection h4 {
     text-shadow: none;
 }
+
+.main-footer {
+    position: relative;
+}

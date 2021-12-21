@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { Nav, Navbar, Container, Offcanvas, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 class Quote extends React.Component {
@@ -39,11 +40,11 @@ const SideBar = () => {
         <Offcanvas.Body>
           <h4>Navigation</h4>
           <ul className="list-unstyled navigation-links">
-            <li><a href = "home">Home</a></li>
-            <li><a href = "coursework">Course Work</a></li>
-            <li><a href = "portfolio">Portfolio</a></li>
-            <li><a href = "resume">Resume</a></li>
-            <li><a href = "contactme">Contact Me</a></li>             
+            <li><Link to = "/home">Home</Link></li>
+            <li><Link to = "/coursework">Course Work</Link></li>
+            <li><Link to = "/portfolio">Portfolio</Link></li>
+            <li><Link to = "/resume">Resume</Link></li>
+            <li><Link to = "/contactme">Contact Me</Link></li>             
           </ul>
           <hr/>
           <Quote quote="Geniuses do not exist in the world." author = "Chris Tralie, Ph.D."></Quote>
@@ -58,13 +59,13 @@ const Header = () => (
     <div className="Header">
       <Navbar bg="danger" variant="light">
         <Container>
-          <Navbar.Brand className = "brand" href="home"><h4 className = "header-link">Will Gillette</h4></Navbar.Brand>
+          <Navbar.Brand className = "brand" href="/home"><h4 className = "header-link">Will Gillette</h4></Navbar.Brand>
           <Nav>
-            <Nav.Link className="h-link" href = "home"><h4 className = "header-link">Home</h4></Nav.Link>
-            <Nav.Link className="h-link" href = "coursework"><h4 className = "header-link">Course Work</h4></Nav.Link>
-            <Nav.Link className="h-link" href = "portfolio"><h4 className = "header-link">Portfolio</h4></Nav.Link>
-            <Nav.Link className="h-link" href = "athletics"><h4 className = "header-link">Athletics</h4></Nav.Link>
-            <Nav.Link className="h-link" href = "contact"><h4 className = "header-link">Contact Me</h4></Nav.Link> 
+            <Nav.Link className="h-link" href = "/home"><h4 className = "header-link">Home</h4></Nav.Link>
+            <Nav.Link className="h-link" href = "/coursework"><h4 className = "header-link">Course Work</h4></Nav.Link>
+            <Nav.Link className="h-link" href = "/portfolio"><h4 className = "header-link">Portfolio</h4></Nav.Link>
+            <Nav.Link className="h-link" href = "/athletics"><h4 className = "header-link">Athletics</h4></Nav.Link>
+            <Nav.Link className="h-link" href = "/contact"><h4 className = "header-link">Contact Me</h4></Nav.Link> 
           </Nav>
         </Container>
       </Navbar>
@@ -74,9 +75,5 @@ const Header = () => (
   </div>
   
 );
-
-Header.propTypes = {};
-
-Header.defaultProps = {};
 
 export default Header;

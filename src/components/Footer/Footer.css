@@ -2,7 +2,7 @@
     color: white;
     background-color: #dc3545;
     padding-top: 3em;
-    display: flex;
+    position: relative;
     bottom: 0;
     width: 100%;
     box-shadow: 0px -2px 2px 0.5px rgba(0,0,0,0.5);

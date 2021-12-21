@@ -1,0 +1,1 @@
+export const COURSEDATA = require("./CourseInfo.json");

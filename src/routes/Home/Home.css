@@ -1,5 +1,7 @@
 #overview {
     margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #overview h4 {
@@ -23,5 +25,28 @@
 
 #pksContainer {
     width: 30%;
-    margin-left: 4%;
+    margin-right: 1%;
+}
+
+#homeCarousel {
+    margin: 0 auto;
+    margin-top: 2.5%;
+}
+
+@media (max-width: 1864px){
+    #academicContainer{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+    #pksContainer{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #homeCarousel {
+        width: 90%;
+        margin: 0 auto;
+    }
 }

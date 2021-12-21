@@ -20,7 +20,7 @@ const Home = () => ( // <p>My Myer-Briggs personality type is the <b>ISTJ</b>, m
         <div id = "academicContainer" class = "col-4">
           <NewsCard header="Academic News" title="Fall 2021 Sem. | 4.0" description="Despite my challenging course load, I managed to secure a 4.0 for the Fall 2021 semester."/>
         </div>
-        <div class = "col-4">
+        <div id = "homeCarousel" class = "col-4">
           <HomeCarousel/>
         </div>
         <div id = "pksContainer" class = "col-4">

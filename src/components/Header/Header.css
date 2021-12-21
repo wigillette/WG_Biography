@@ -2,34 +2,82 @@
     font-family: "Roboto Slab", serif;
     font-size: 2vh;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px #000000;
 }
 
-.Header {
-    padding-bottom: 1%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    border-radius: 0.5%;
+@media (min-width: 1865px){
+    .Header {
+        padding-bottom: 1%;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+        border-radius: 0.5%;
+    }
+
+    .Header Nav {
+        background-color: #dc3545;
+        border-radius: 0.5%;
+        box-shadow: 0px 2px 2px 0.5px rgba(0,0,0,0.5);
+    }
+
+    .h-link{
+        margin-left: 15%;
+    }
+
+    .header-link, .logo {
+        white-space: nowrap;
+        transition: 0.2s;
+        color: rgb(255,255,255);
+    }
+
+    .header-link:hover, .logo:hover{
+        color: rgb(220,220,220)
+    }
+
+    #MobileMenuToggle {
+        display: none;
+    }
 }
 
-.Header Nav {
-    background-color: #dc3545;
-    border-radius: 0.5%;
-    box-shadow: 0px 2px 2px 0.5px rgba(0,0,0,0.5);
-}
+@media (max-width: 1864px){
+    .Header {
+        display: none;
+    }
 
-.h-link{
-    margin-left: 15%;
-}
+    .offcanvas {
+        max-width: 50% !important;
+        box-shadow: 1px 0px 4px 1px rgba(0,0,0,0.5);
+    }
 
-.header-link, .logo {
-    white-space: nowrap;
-    transition: 0.2s;
-    color: rgb(255,255,255);
-}
+    #MobileMenuToggle {
+        position: relative;
+        top: 10%;
+        background: none;
+        border: none;
+        font-size: 4vh;
+        margin-right: 80%;
+    }
 
-.header-link:hover, .logo:hover{
-    color: rgb(220,220,220)
+    .offcanvas-title {
+        font-family: "Roboto Slab";
+    }
+
+    .offcanvas-body h4 {
+        color: rgb(60,60,60);
+        text-shadow: none;
+        margin-bottom: 15%;
+    }
+
+    .offcanvas-body li {
+        margin-bottom: 15%;
+    }
+    .offcanvas-body a {
+        font-family: "Open Sans", serif;
+        text-shadow: none;
+        transition: 0.2s;
+    }
+
+    .offcanvas-body a:hover() {
+        color: rgb(78, 175, 255)
+    }
 }

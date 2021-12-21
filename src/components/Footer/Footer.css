@@ -19,7 +19,7 @@ h4 {
     text-shadow: 1px 1px #000000;
 }
 
-li {
+.social-media li {
     font-family: "Open Sans", serif;
     text-shadow: 1px 1px #000000;
 }
@@ -29,9 +29,14 @@ li {
     padding: 2%;
 }
 
+.contact-info li {
+    text-shadow: 1px 1px #000000;
+}
+
 .social-media a {
     font-size: 2em;
-    text-decoration: none;  
+    text-decoration: none; 
+    text-shadow: 0px; 
     transition: 0.2s;
 }
 

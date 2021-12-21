@@ -20,7 +20,7 @@ const Footer = () => (
         {/* Column 2 */}
         <div className="col-4">
           <h4>Contact Information</h4>
-          <ul className="list-unstyled">
+          <ul className="list-unstyled contact-info">
             <li><b>Cell Phone:</b> 908-300-0673</li>
             <li><b>Email:</b> wgillette02@gmail.com</li> 
           </ul>

@@ -6,8 +6,8 @@
 
 @media (max-width: 600px) {
     .carousel {
-        width: 30vh;
-        height: 15vh;
+        width: 40vh;
+        height: 25vh;
     }
 }
 
@@ -20,14 +20,14 @@
 
 
 
-@media (min-width: 1601px) and (max-width: 1864px){
+@media (min-width: 1601px) and (max-width: 1863px){
     .carousel {
         width: 100vh;
         height: 40vh;
     }
 } 
 
-@media (min-width: 1864px){
+@media (min-width: 1864px) and (max-width: 2499px){
     .carousel {
         width: 100vh;
         height: 45vh;
@@ -38,6 +38,14 @@
         height: 30vh;
         
     }
+}
+
+@media (min-width: 2500px){
+    .HomeCarousel {
+        height: 50vh;
+        width: 80vh;
+    }
+    
 }
 
 

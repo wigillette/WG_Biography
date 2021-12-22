@@ -2,8 +2,8 @@ import React from 'react';
 import './Home.css';
 import HomeCarousel from '../../components/HomeCarousel/HomeCarousel';
 import NewsCard from '../../components/NewsCard/NewsCard';
-import FrontPage1 from "../../shared/images/FrontPage1.jpg";
-import PhiKaps3 from "../../shared/images/PhiKaps3.jpg";
+import FrontPage6 from "../../shared/images/FrontPage7.jpg";
+import PhiKaps6 from "../../shared/images/PhiKaps6.jpg";
 
 
 const Home = () => ( // <p>My Myer-Briggs personality type is the <b>ISTJ</b>, meaning that I am rigid when it comes to my core values and beliefs. Additionally, my workstyle revolves around problem-solving in the most efficient way.</p>
@@ -20,14 +20,14 @@ const Home = () => ( // <p>My Myer-Briggs personality type is the <b>ISTJ</b>, m
     <div id = "graphicsContainer">
 
       <div class = "row">
-        <div id = "academicContainer" class = "col-4">
-          <NewsCard header="Academic News" image={FrontPage1} title="Fall 2021 Sem. | 4.0" description="Despite my challenging course load, I managed to secure a 4.0 for the Fall 2021 semester."/>
+        <div id = "academicContainer" class = "col-sm-12 col-lg-4">
+          <NewsCard header="Academic News" image={FrontPage6} title="Fall 2021 Sem. | 4.0" description="Despite my challenging course load, I managed to secure a 4.0 for the Fall 2021 semester."/>
         </div>
-        <div id = "homeCarousel" class = "col-4">
+        <div id = "homeCarousel" class = "col-sm-12 col-lg-4">
           <HomeCarousel/>
         </div>
-        <div id = "pksContainer" class = "col-4">
-        <NewsCard header="PKS News" image={PhiKaps3} title="Academic Chair Election" description="I was recently elected to be the Pi for the Phi Kappa Sigma Delta Rho chapter."/>
+        <div id = "pksContainer" class = "col-sm-12 col-lg-4">
+        <NewsCard header="PKS News" image={PhiKaps6} title="Academic Chair Election" description="I was recently elected to be the Pi for the Phi Kappa Sigma Delta Rho chapter."/>
         </div>
       </div>
     </div>

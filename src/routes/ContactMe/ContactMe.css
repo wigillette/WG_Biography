@@ -26,5 +26,19 @@
 .ContactMeCarousel {
     margin-top: 1%;
     margin-bottom: 3%;
+    width: 30%;
+}
+
+@media (max-width: 650px){
+    .ContactMeCarousel {
+        margin-top: 5%;
+        margin-bottom: 3%;
+        width: 90%;
+        height: 50%;
+    }
+
+    .ContactForm {
+        width: 90%;
+    }
 }
 

@@ -14,10 +14,12 @@
     color: rgb(60,60,60)
 }
 
+
 #graphicsContainer {
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
 
 #academicContainer {
     width: 30%;
@@ -38,7 +40,17 @@
     margin-top: 4%;
 }
 
-@media (max-width: 1864px){
+@media (max-width: 600px){
+    #academicContainer, #pksContainer {
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+}
+
+
+@media (min-width: 1864px) and (max-width: 2500px){
     #academicContainer{
         width: 90%;
         margin: 0 auto;
@@ -53,5 +65,16 @@
     #homeCarousel {
         width: 90%;
         margin: 0 auto;
+    }
+}
+
+@media (min-width: 2500px){
+    #academicContainer, #pksContainer{
+        width: 20%;
+    }
+
+    #homeCarousel {
+        margin: 0 auto;
+        margin-right: 17%;
     }
 }

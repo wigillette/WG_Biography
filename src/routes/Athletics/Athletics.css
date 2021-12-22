@@ -17,3 +17,58 @@
     margin: 0 auto;
     margin-bottom: 5%;
 }
+
+.AthleticsBody h3, .accordion-button {
+    font-family: "Roboto Slab", serif;
+
+}
+
+.AthleticsBody {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.AthleticsBody h3 {
+    margin-bottom: 1%;
+}
+
+.accordion-body {
+    font-size: 1.8vh;
+}
+
+.accordion-button {
+    font-size: 2vh !important;
+}
+
+@media (max-width: 799px){
+    
+
+    #JuniorYr {
+        display: none;
+    }
+    #Regionals {
+        display: none;
+    }
+
+    #Track {
+        display: none;
+    }
+
+    #College {
+        display: none;
+    }
+    .athleticsCard {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10%;
+    }
+
+}
+
+@media (min-width: 800px){
+    .AthleticsImages .col {
+        margin: 0 auto;
+        margin-right: -5%;
+        margin-left: -5%;
+    }
+}

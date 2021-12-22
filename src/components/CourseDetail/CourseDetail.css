@@ -3,9 +3,20 @@
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 0%;
     position: relative;
-    min-height: 50vh;
+    min-height: 68vh;
+}
+
+@media (min-width: 600px){
+    .randomQuote {
+        margin: 0 auto;
+        width: 80%;
+    } 
+    .CourseDetail .card-body p {
+        font-size: 2vh;
+        padding-bottom: 3%;
+    }
 }
 
 .CourseDetail .courseName {
@@ -22,4 +33,19 @@
 .CourseDetail .profName {
     color: rgb(100,100,100);
 }
+
+.descBC {
+    padding: 0.5%;
+    padding-bottom: 0%;
+    margin-bottom: 2%;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgba(0,0,0, 0.125);
+    border-radius: 0.37rem;
+}
+
+.randomQuote {
+   margin-top: 3%;
+   margin-bottom: 0%;
+}
+
 

@@ -1,0 +1,1 @@
+export const QUOTELIST = require("./Quotes.json");

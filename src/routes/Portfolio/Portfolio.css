@@ -1,20 +1,74 @@
-
-.CourseWork {
-    width: 100%;
-    height: 60%;
-    margin-top: 4%;
+.Portfolio{
+    min-height: 53vh;
+    margin-top: 5%;
 }
-.MajorSection, .GPASection{
+
+.PortfolioInfo {
+    margin-top: -1.5%;
+}
+
+.PortfolioInfo h4 {
+    text-shadow: none;
+    font-size: 2.5vh;
+    margin-bottom: 0.5%;
+}
+
+.Portfolio p {
     font-size: 1.5vh;
-}
-
-.GPASection {
-    padding-bottom: 1%;
-}
-
-.CourseTables {
-    height: 40%;
-    width: 90%;
-    display: inline-block;
     margin: 0 auto;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.Portfolio .tab-content p {
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.Portfolio .nav-item button {
+    font-size: 2vh;
+    font-family: "Roboto Slab", serif;
+}
+
+.Portfolio .nav-item {
+    padding-right: 1%;
+}
+
+.nav-tabs .nav-link {
+    color: rgb(150, 0, 0);
+    background-color: #fff;
+    border-color: none;
+}
+
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link:hover{
+    color: rgb(255, 0, 0)
+}
+
+.PortfolioCarousel {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 600px){
+    .PortfolioCarousel{
+        display: none;
+    }
+
+    .Portfolio p, .Portfolio .tab-content p {
+        margin-bottom: 4%;
+        font-size: 1.5vh;
+    }
+
+    .Portfolio .tab-content {
+        margin-bottom: 5%;
+    }
+
+    .Portfolio h4 {
+        margin-bottom: 3%;
+    }
 }

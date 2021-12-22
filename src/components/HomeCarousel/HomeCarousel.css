@@ -23,9 +23,22 @@
 @media (min-width: 1601px) and (max-width: 1864px){
     .carousel {
         width: 100vh;
-        height: 50vh;
+        height: 40vh;
     }
 } 
+
+@media (min-width: 1864px){
+    .carousel {
+        width: 100vh;
+        height: 45vh;
+    }
+
+    .HomeCarousel {
+        width: 60vh;
+        height: 30vh;
+        
+    }
+}
 
 
 

@@ -1,6 +1,8 @@
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import './MainComponent.css';
+
 import CourseDetail from '../CourseDetail/CourseDetail';
 import CourseWork from '../../routes/CourseWork/CourseWork';
 import Home from '../../routes/Home/Home';
@@ -9,13 +11,12 @@ import Portfolio from '../../routes/Portfolio/Portfolio';
 import Athletics from '../../routes/Athletics/Athletics';
 import { connect } from 'react-redux';
 import React from 'react';
-import { keyboard } from '@testing-library/user-event/dist/keyboard';
-
 
 const mapStateToProps = state => {
   return {
-    CourseData: state.CourseData
-    
+    CourseData: state.CourseData,
+    QuoteList: state.QuoteList.quotes,
+    PortfolioData: state.PortfolioData.YearData
   }
 }
 
@@ -29,8 +30,9 @@ class Main extends React.Component {
         }
         
         const PortfolioPage = () => {
+            console.log(this.props.PortfolioData);
             return(
-                <Portfolio/>
+                <Portfolio data={this.props.PortfolioData}/>
             );
         }
 
@@ -57,11 +59,13 @@ class Main extends React.Component {
     
 
         const CourseWithId = ({match}) => {
+            let randomQuote = this.props.QuoteList[Math.floor(Math.random() * this.props.QuoteList.length)];
+
             let courseData = null;
             console.log(match.params);
             this.props.CourseData.Semesters.forEach(semesterObject => {
                 for (const [entryId, course] of Object.entries(semesterObject)){
-                    if (entryId != "Name" && entryId != "GPA"){
+                    if (entryId !== "Name" && entryId !== "GPA"){
                         if (match.params.courseId === course.CourseID){
                             courseData = course
                         }
@@ -70,14 +74,14 @@ class Main extends React.Component {
             });
             
             return(
-                <CourseDetail DescData = {courseData.Description} CourseID = {courseData.CourseID} CourseName = {courseData.CourseName} Instructor = {courseData.Instructor}/>
+                <CourseDetail Quote = {randomQuote} DescData = {courseData.Description} CourseID = {courseData.CourseID} CourseName = {courseData.CourseName} Instructor = {courseData.Instructor}/>
             );
         };
     
         return (
-            <div>
+            <div className = "PageWrapper">
                 <Header />
-                <div>
+                <div className = "contentWrap">
                     <Switch>
                         <Route path = "/home" component={HomePage} />
                         <Route exact path = "/coursework" component = {CourseWorkPage}/>

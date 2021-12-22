@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import './HomeCarousel.css';
 import { Carousel } from 'react-bootstrap';
-import Dog1 from "../../shared/images/dog1.jpg";
-import Dog2 from "../../shared/images/dog2.jpg";
+import PhiKaps5 from "../../shared/images/PhiKaps5.jpg";
+import FrontPage5 from "../../shared/images/FrontPage5.jpg";
 
 const HomeCarousel = () => {
   const [index, setIndex] = useState(0);
@@ -11,24 +11,24 @@ const HomeCarousel = () => {
   };
 
   return <Carousel className="HomeCarousel" activeIndex = {index} onSelect = {handleSelect}>
-      <Carousel.Item class = "carouselItem">
-        <img class = "d-block w-100 img-fluid"
-          src={Dog1}
+      <Carousel.Item className = "carouselItem">
+        <img className = "d-block w-100 img-fluid"
+          src={FrontPage5}
           alt="First Slide"
         ></img>
         <Carousel.Caption>
-          <h3>First Slide Label</h3>
-          <p>Nulla Vitae elit libero, a pharetra augue mollis interdum</p>
+          <h3>Ursinus College Family Day</h3>
+          <p>A photoshoot of me in my legenday HOKA Summer Mile Club hat.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item class = "carouselItem">
-        <img class = "d-block w-100 img-fluid"
-          src={Dog2}
+      <Carousel.Item className = "carouselItem">
+        <img className = "d-block w-100 img-fluid"
+          src={PhiKaps5}
           alt="Second Slide"
         ></img>
         <Carousel.Caption>
-          <h3>Second Slide Label</h3>
-          <p>Nulla Vitae elit libero, a pharetra augue mollis interdum</p>
+          <h3>Suicide Prevention Walk</h3>
+          <p>The Phi Kaps volunteer annually at a Suicide Prevention Walk.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

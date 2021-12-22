@@ -1,5 +1,4 @@
 #overview {
-    margin-top: 4%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -7,6 +6,7 @@
 #overview h4 {
     text-shadow: none;
     font-size: 2.5vh;
+    margin-bottom: 0.5%;
 }
 
 #overview p {
@@ -15,6 +15,7 @@
 }
 
 #graphicsContainer {
+    margin-top: 2%;
     margin-bottom: 2%;
 }
 
@@ -31,6 +32,10 @@
 #homeCarousel {
     margin: 0 auto;
     margin-top: 2.5%;
+}
+
+.Home {
+    margin-top: 4%;
 }
 
 @media (max-width: 1864px){

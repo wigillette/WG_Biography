@@ -30,7 +30,7 @@ const SideBar = () => {
   return (
     <>
       <button id = "MobileMenuToggle" onClick={handleShow}>
-        <i class = "fa fa-bars"></i>
+        <i className = "fa fa-bars"></i>
       </button>
 
       <Offcanvas show={show} onHide={handleClose}>
@@ -43,8 +43,8 @@ const SideBar = () => {
             <li><Link to = "/home">Home</Link></li>
             <li><Link to = "/coursework">Course Work</Link></li>
             <li><Link to = "/portfolio">Portfolio</Link></li>
-            <li><Link to = "/resume">Resume</Link></li>
-            <li><Link to = "/contactme">Contact Me</Link></li>             
+            <li><Link to = "/athletics">Athletics</Link></li>
+            <li><Link to = "/contact">Contact Me</Link></li>             
           </ul>
           <hr/>
           <Quote quote="Geniuses do not exist in the world." author = "Chris Tralie, Ph.D."></Quote>
@@ -59,7 +59,7 @@ const Header = () => (
     <div className="Header">
       <Navbar bg="danger" variant="light">
         <Container>
-          <Navbar.Brand className = "brand" href="/home"><h4 className = "header-link">Will Gillette</h4></Navbar.Brand>
+          <Navbar.Brand className = "brand" href="/home"><h4 className = "header-link">William Gillette</h4></Navbar.Brand>
           <Nav>
             <Nav.Link className="h-link" href = "/home"><h4 className = "header-link">Home</h4></Nav.Link>
             <Nav.Link className="h-link" href = "/coursework"><h4 className = "header-link">Course Work</h4></Nav.Link>

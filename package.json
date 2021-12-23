@@ -1,6 +1,7 @@
 {
   "name": "wg_biography",
   "version": "0.1.0",
+  "homepage": "http://wigillette.github.io/WG_Biography",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -19,6 +20,8 @@
   },
   "scripts": {
     "start-client": "react-scripts start",
+    "predeploy": "npm run build && (cd server && npm start)",
+    "deploy": "gh-pages -d build",
     "start": "npm run build && (cd server && npm start)",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

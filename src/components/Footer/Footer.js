@@ -3,6 +3,7 @@ import './Footer.css';
 import {Container} from "react-bootstrap";
 
 const Footer = () => (
+  // eslint-disable-next-line
   <div className="main-footer">
     <Container>
       <div className = "row">

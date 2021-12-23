@@ -3,17 +3,16 @@ import './Footer.css';
 import {Container} from "react-bootstrap";
 
 const Footer = () => (
-  // eslint-disable-next-line
   <div className="main-footer">
     <Container>
       <div className = "row">
         <div className = "col-lg-4 col-sm-6">
           <h4>Social Media</h4>
           <ul className = "list-unstyled social-media">
-            <li><a href = "https://www.facebook.com/william.gillette.3152"><i className="fa fa-facebook-square" aria-hidden = "true"></i></a></li>
-            <li><a href = "https://www.instagram.com/wcgillette"><i className="fa fa-instagram" aria-hidden = "true"></i></a></li>
-            <li><a href = "https://www.linkedin.com/in/william-g-95abb5202"><i className="fa fa-linkedin-square" aria-hidden = "true"></i></a></li>
-            <li><a href = "https://twitter.com/SoIationsRBLX"><i className="fa fa-twitter-square" aria-hidden = "true"></i></a></li>
+            <li><a href = "https://www.facebook.com/william.gillette.3152"> <i className="fa fa-facebook-square" aria-hidden = "true"></i></a></li>
+            <li><a href = "https://www.instagram.com/wcgillette"> <i className="fa fa-instagram" aria-hidden = "true"></i></a></li>
+            <li><a href = "https://www.linkedin.com/in/william-g-95abb5202"> <i className="fa fa-linkedin-square" aria-hidden = "true"></i></a></li>
+            <li><a href = "https://twitter.com/SoIationsRBLX"> <i className="fa fa-twitter-square" aria-hidden = "true"></i></a></li>
           </ul>
         </div>
         <div className="col-lg-4 col-sm-6">

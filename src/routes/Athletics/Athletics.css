@@ -28,6 +28,11 @@
     width: 90%;
 }
 
+.AthleticsHeader {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .AthleticsBody h3 {
     margin-bottom: 1%;
 }

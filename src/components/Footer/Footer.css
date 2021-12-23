@@ -58,7 +58,7 @@ h4 {
     cursor: pointer;
 }
 
-@media (max-width: 650px){
+@media (max-width: 1000px){
     #footerNavigation{
         display: none;
     }

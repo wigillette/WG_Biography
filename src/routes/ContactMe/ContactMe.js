@@ -37,7 +37,8 @@ const ContactMeCarousel = () => {
 function ContactMe(){
   const [validated, setValidated] = useState(false);
   
-  const handleSubmit = (event) => {
+  const handleSubmit = (event, values) => {
+    console.log(values);
     const form = event.currentTarget;
     if (form.checkValidity() === false){
       event.preventDefault();
@@ -55,7 +56,7 @@ function ContactMe(){
       <hr/>
     </div>
     <div className="ContactForm">
-      <Form noValidate validated={validated} onSubmit = {handleSubmit} >
+      <Form noValidate validated={validated} onSubmit = {(values) => handleSubmit(values)}>
         <Row className = "mb-3">
           <Form.Group as = {Col} controlId = "formGridFname">
             <Form.Label>First Name</Form.Label>

@@ -15,14 +15,12 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.0",
     "redux": "^4.1.2",
-    "web-vitals": "^2.1.2",
-    "nodemon": "^2.0.15"
+    "web-vitals": "^2.1.2"
   },
   "scripts": {
-    "start-client": "react-scripts start",
-    "predeploy": "npm run build && (cd server && npm run build)",
-    "deploy": "gh-pages -d build",
-    "start": "npm run build && (cd server && npm run build)",
+    "dev:build-server": "SET NODE_ENV=development webpack --config webpack.server.js --mode=development -w",
+    "dev:start": "nodemon ./server-build/index.js",
+    "start": "npm-run-all --parallel build dev:*",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -46,6 +44,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "nodemon": "^2.0.15",
+    "npm-run-all": "^4.1.5"
   }
 }

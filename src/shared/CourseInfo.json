@@ -32,7 +32,7 @@
         "C2": {"CourseID": "CS-377", "Description": "The concepts involved in designing and using a database management system. Logical and physical database design. Entity-Relational Modeling. Various types of database structures, manipulations of a database structure through applications, query techniques, and programming in a database language.",
         "Instructor": "Dr. Bill Mongan", "Grade": "A+", "CourseName": "Database Design"},
         "C3": {"CourseID": "MATH-211", "Description": "Functions of several variables, including three-dimensional geometry and vectors, space curves and motion in space, partial differentiation, multiple integration, line and surface integrals, and the theorems of Green, Gauss, and Stokes.", 
-        "Instructor": "Dr. Eric Takyi", "Grade": "A+", "CourseName": "Calculus 3"},
+        "Instructor": "Dr. Eric Takyi", "Grade": "A", "CourseName": "Calculus 3"},
         "C4": {"CourseID": "MATH-235", "Description": "Systems of linear equations, matrix algebra, vector spaces, linear transformations, eigenvectors and eigenvalues, inner products and orthogonality, applications.",
         "Instructor": "Dr. Christopher Sadowski", "Grade": "A+", "CourseName": "Linear Algebra"}
         },

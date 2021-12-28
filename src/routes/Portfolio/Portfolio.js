@@ -10,7 +10,6 @@ function getTabData(data){
   var index = 0;
   var paragraphElements = [];
   for (const [year, infoArray] of Object.entries(data)){
-    paragraphElements = [];
     // eslint-disable-next-line
     infoArray.forEach(info => {
       // eslint-disable-next-line
@@ -22,7 +21,7 @@ function getTabData(data){
     </Tab>
     index += 1;
     tabList.push(tabElement);
-
+    paragraphElements = [];
   }
 
   return tabList;

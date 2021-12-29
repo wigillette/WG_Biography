@@ -22,6 +22,7 @@
 
     .h-link{
         margin-left: 15%;
+        display: inline-block;
     }
 
     .header-link, .logo {
@@ -36,6 +37,11 @@
 
     #MobileMenuToggle {
         display: none;
+    }
+
+    .brand h4{
+        vertical-align: middle;
+        font-size: 2.5vh;
     }
 }
 

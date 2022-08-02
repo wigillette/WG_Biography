@@ -30,8 +30,8 @@ class CourseWork extends React.Component {
     return <div className="CourseWork">
       <div className = "InfoSection">
         <h4>Academic Overview</h4>
-        <p>I am pursuing a double major in <b>computer science</b> and <b>mathematics</b> and may potentially add a <b>statistics</b> minor. I plan to use my knowledge from math and computer science courses to specialize in <b>Machine Learning</b>.</p>
-        <p>My cumulative GPA is a <b>3.97</b>, while my computer science and mathematics GPAs are <b>4.0</b> and <b>3.91</b>, respectively.</p>
+        <p>I am pursuing a double major in <b>computer science</b> and <b>mathematics</b> and minoring in <b>statistics</b> and <b>scientific computing</b>. I plan to use my knowledge from math and computer science courses to specialize in <b>Machine Learning</b> or <b>Data Science</b>.</p>
+        <p>My cumulative GPA is <b>3.98</b>, while my computer science and mathematics GPAs are <b>4.0</b> and <b>3.93</b>, respectively.</p>
         <hr/>
       </div>
       <div className = "CourseTables">

@@ -10,7 +10,7 @@ const Home = () => ( // <p>My Myer-Briggs personality type is the <b>ISTJ</b>, m
   <div className="Home">
     <div id = "overview">
       <h4>Overview</h4>
-      <p>I am a 19-year-old sophomore student-athlete pursuing a Bachelor's of Science in Computer Science and Mathematics at <b>Ursinus College</b>.</p>
+      <p>I am a 20-year-old junior student-athlete pursuing a Bachelor's of Science in Computer Science and Mathematics at <b>Ursinus College</b>.</p>
       <p>At Ursinus, I am a member of the <b>cross-country</b> and <b>track and field</b> teams, where I specialize in long distance running and compete in the 5K/8K/10K distances.</p>
       <p>Furthermore, I am a brother of <b>Phi Kappa Sigma</b>, an international fraternity. In PKS, I am both the <b>academic chair</b> and <b>historian</b>, meaning that I have to promote scholarship within the organization and document photos from social events, respectively.</p>
       <p>Finally, I use my vast knowledge of computer science and mathematics to <b>tutor</b> and <b>coach</b> people who request help with those concepts. I take pride in helping others understand the material that I am very passionate about.</p>

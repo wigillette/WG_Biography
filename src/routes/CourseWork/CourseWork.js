@@ -13,9 +13,9 @@ function getCourseData(CourseData){
   CourseData.Semesters.forEach(courseObject => { 
     tableList.push(<SemesterCourses key = {key} Name={courseObject.Name} GPA={courseObject.GPA} 
       C1 = {{CourseID: courseObject.C1.CourseID, Instructor: courseObject.C1.Instructor, Grade: courseObject.C1.Grade, CourseName: courseObject.C1.CourseName} || undefined}
-      C2 = {{CourseID: courseObject.C2.CourseID, Instructor: courseObject.C2.Instructor, Grade: courseObject.C2.Grade, CourseName: courseObject.C2.CourseName} || undefined}
-      C3 = {{CourseID: courseObject.C3.CourseID, Instructor: courseObject.C3.Instructor, Grade: courseObject.C3.Grade, CourseName: courseObject.C3.CourseName} || undefined}
-      C4 = {{CourseID: courseObject.C4.CourseID, Instructor: courseObject.C4.Instructor, Grade: courseObject.C4.Grade, CourseName: courseObject.C4.CourseName} || undefined}
+      C2 = {{CourseID: courseObject.C2.CourseID || undefined, Instructor: courseObject.C2.Instructor || undefined, Grade: courseObject.C2.Grade || undefined, CourseName: courseObject.C2.CourseName} || undefined}
+      C3 = {{CourseID: courseObject.C3.CourseID || undefined, Instructor: courseObject.C3.Instructor || undefined, Grade: courseObject.C3.Grade || undefined, CourseName: courseObject.C3.CourseName || undefined} || undefined}
+      C4 = {{CourseID: courseObject.C4.CourseID || undefined, Instructor: courseObject.C4.Instructor || undefined, Grade: courseObject.C4.Grade || undefined, CourseName: courseObject.C4.CourseName || undefined} || undefined}
       />);
       key += 1;
   });
